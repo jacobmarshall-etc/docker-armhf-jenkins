@@ -1,4 +1,4 @@
-FROM java:8-jdk
+FROM hypriot/rpi-java:1.8.0
 
 RUN apt-get update && apt-get install -y git curl zip && rm -rf /var/lib/apt/lists/*
 
